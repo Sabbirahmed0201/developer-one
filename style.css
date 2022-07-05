@@ -11,9 +11,9 @@ h1 {
     color: red;
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
 
 .half-width {
@@ -32,4 +32,17 @@ section {
     color: wheat;
     font-weight: 700;
     border-radius: 10%;
+}
+
+.Experience-item {
+    width: 55%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 10%;
+
+    box-shadow: 10px 10px 40px blue;
+}
+
+footer p {
+    text-align: center;
 }
